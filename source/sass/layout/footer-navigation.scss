@@ -1,0 +1,24 @@
+.footer-navigation__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  @media (min-width: $desktop) {
+    justify-content: flex-start;
+  }
+}
+
+.footer-navigation__item {
+  margin: 0 30px 0 0;
+}
+
+.footer-navigation__link {
+  @include link();
+
+  display: block;
+  font-weight: 500;
+}

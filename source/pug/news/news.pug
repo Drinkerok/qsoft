@@ -1,0 +1,25 @@
+.news
+  .container
+    h2.news__header Новости компании
+    ul.news__list
+      li.news__item
+        a.news-preview(href="#", style="background-color: #34AADD;")
+          h3.news-preview__header Цветок, который стоит на столе, такой загадочный.
+          p.news-preview__description А тут описание цветка, придающее ему загадочности и вызывающее интерес пользователя
+      li.news__item.news__item--large
+        a.news-preview.news-preview--img(href="#", style="background-color: rgba(167, 80, 123, 0.8); background-image: url(/img/news/bg_news-2.jpg);")
+          h3.news-preview__header Длинный заголовок большой новости
+          p.news-preview__description А тут описание цветка, придающее ему загадочности и вызывающее интерес пользователя
+      li.news__item.news__item--large
+        a.news-preview.news-preview--img(href="#", style="background-color: rgba(102, 128, 174, 0.8); background-image: url(/img/news/bg_news-3.jpg);")
+          h3.news-preview__header Длинный заголовок большой новости
+          p.news-preview__description А тут описание цветка, придающее ему загадочности и вызывающее интерес пользователя
+      li.news__item
+        a.news-preview(href="#", style="background-color: #F95A59;")
+          h3.news-preview__header Цветок, который стоит на столе, такой загадочный.
+          p.news-preview__description А тут описание цветка, придающее ему загадочности и вызывающее интерес пользователя
+    .news__link-wrapper
+      a.news__link(href="#")
+        |Смотреть все новости
+        svg.news__link-icon(width="16", height="14", aria-hidden="true")
+          use(xlink:href="#icon_arrow")

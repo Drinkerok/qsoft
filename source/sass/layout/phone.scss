@@ -1,0 +1,18 @@
+.phone {
+  flex-shrink: 0;
+}
+
+.phone__link {
+  display: block;
+  font-size: 18px;
+  transition: 0.3s color;
+
+  &:hover {
+    color: $accent-color;
+  }
+}
+
+.phone__description {
+  color: $disabled-text-color;
+  margin: -2px 0 0;
+}

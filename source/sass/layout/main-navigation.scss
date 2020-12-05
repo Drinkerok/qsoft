@@ -1,0 +1,40 @@
+.main-navigation {
+  overflow: hidden;
+}
+
+.main-navigation__list {
+  list-style: none;
+  padding: 0;
+  margin: 0 -10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  @media (min-width: $desktop) {
+    margin: 0 -30px;
+  }
+}
+
+.main-navigation__item {
+  margin: 0 10px;
+
+  @media (min-width: $desktop) {
+    margin: 0 30px;
+  }
+}
+
+.main-navigation__link {
+  display: block;
+  font-size: 18px;
+  color: $alternative-text-color;
+  transition: 0.3s color;
+
+  &--active {
+    color: #f95a59;
+  }
+
+  &:not(&--active):hover {
+    color: $accent-color;
+  }
+}

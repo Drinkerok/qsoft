@@ -1,0 +1,7 @@
+form.search(action="#")
+  label.visually-hidden(for="search-input") Поиск по сайту
+  input.search__input#search-input(placeholder="Найти на сайте...", name="search", required)
+  button.search__submit
+    span.visually-hidden Искать
+    svg.search__icon(width="16", height="16", aria-hidden="true")
+      use(xlink:href="#icon_search")

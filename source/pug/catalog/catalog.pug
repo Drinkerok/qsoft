@@ -1,0 +1,91 @@
+.catalog
+  .container
+    h2.catalog__header Популярные товары
+    ul.catalog__list
+      li.catalog__item
+        .product-preview
+          a.product-preview__link(href="#")
+            ul.product-preview__tags
+              li.product-preview__tag.product-preview__tag--stock Акция
+              li.product-preview__tag.product-preview__tag--hit Хит
+              li.product-preview__tag.product-preview__tag--best-price Лучшая цена
+            .product-preview__img-wrapper
+              img(src="/img/products/product_1.jpg", alt="Цветок, который стоит на столе, такой загадочный", loading="lazy")
+            .product-preview__about
+              h3.product-preview__name Цветок, который стоит на столе, такой загадочный.
+              p.product-preview__description А тут описание цветка, придающее ему загадочности и вызывающее интерес пользователя
+          .product-preview__additional
+            .product-preview__price
+              .price
+                p.price__value.price__value--old 1 499 ₽
+                p.price__value 799 ₽
+            .product-preview__cart-add
+              a.cart-add(href="#")
+                span.visually-hidden Добавить в корзину
+                svg.cart-add__icon(width="26", height="26", aria-hidden="true")
+                  use(xlink:href="#icon_cart")
+      li.catalog__item
+        .product-preview
+          a.product-preview__link(href="#")
+            ul.product-preview__tags
+              li.product-preview__tag.product-preview__tag--stock Акция
+            .product-preview__img-wrapper
+              img(src="/img/products/product_2.jpg", alt="Набор юного инстаблогера", loading="lazy")
+            .product-preview__about
+              h3.product-preview__name Набор юного инстаблогера
+              p.product-preview__description Посмотрите на него.<br/>Он покажет всем какой вы классный и творческий. Главное не забыть посидеть на подоконнике с бокаль...
+          .product-preview__additional
+            .product-preview__price
+              .price
+                p.price__value 13 666 ₽
+            .product-preview__cart-add
+              a.cart-add(href="#")
+                span.visually-hidden Добавить в корзину
+                svg.cart-add__icon(width="26", height="26", aria-hidden="true")
+                  use(xlink:href="#icon_cart")
+      li.catalog__item
+        .product-preview
+          a.product-preview__link(href="#")
+            ul.product-preview__tags
+              li.product-preview__tag.product-preview__tag--hit Хит
+            .product-preview__img-wrapper
+              img(src="/img/products/product_3.jpg", alt="Лампа. Просто лампа", loading="lazy")
+            .product-preview__about
+              h3.product-preview__name Лампа. Просто лампа.
+              p.product-preview__description В паре с загадочным цветком добавит загадочности вашему интерьеру
+          .product-preview__additional
+            .product-preview__price
+              .price
+                p.price__value.price__value--old 2 699 ₽
+                p.price__value 1 789 ₽
+            .product-preview__cart-add
+              a.cart-add(href="#")
+                span.visually-hidden Добавить в корзину
+                svg.cart-add__icon(width="26", height="26", aria-hidden="true")
+                  use(xlink:href="#icon_cart")
+      li.catalog__item
+        .product-preview
+          a.product-preview__link(href="#")
+            ul.product-preview__tags
+              li.product-preview__tag.product-preview__tag--stock Акция
+              li.product-preview__tag.product-preview__tag--hit Хит
+            .product-preview__img-wrapper
+              img(src="/img/products/product_4.jpg", alt="Классные деревянные минималистичные часы с...", loading="lazy")
+            .product-preview__about
+              h3.product-preview__name Классные деревянные минималистичные часы с...
+              p.product-preview__description Все в ту же копилку загдочности вашего интерьера и вашей натуры
+          .product-preview__additional
+            .product-preview__price
+              .price
+                p.price__value.price__value--old 2 199 ₽
+                p.price__value 1 899 ₽
+            .product-preview__cart-add
+              a.cart-add(href="#")
+                span.visually-hidden Добавить в корзину
+                svg.cart-add__icon(width="26", height="26", aria-hidden="true")
+                  use(xlink:href="#icon_cart")
+    .catalog__link-wrapper
+      a.catalog__link(href="#")
+        |Смотреть каталог
+        svg.catalog__link-icon(width="16", height="14", aria-hidden="true")
+          use(xlink:href="#icon_arrow")

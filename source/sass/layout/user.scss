@@ -1,0 +1,7 @@
+.user__sign-in {
+  @include button();
+
+  display: block;
+  padding: 13px 30px;
+  line-height: 1;
+}

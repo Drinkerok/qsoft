@@ -1,0 +1,15 @@
+.js-tab {
+  * {
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &--active {
+    * {
+      &:focus {
+        outline: 1px solid $accent-color;
+      }
+    }
+  }
+}

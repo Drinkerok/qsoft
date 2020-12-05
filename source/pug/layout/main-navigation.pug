@@ -1,0 +1,33 @@
+-
+  var navigation = [
+    {
+      link: "#",
+      name: "Акции",
+      isActive: true
+    },
+    {
+      link: "#",
+      name: "Товары"
+    },
+    {
+      link: "#",
+      name: "Доставка и оплата"
+    },
+    {
+      link: "#",
+      name: "Гарантия"
+    },
+    {
+      link: "#",
+      name: "О нас"
+    },
+    {
+      link: "#",
+      name: "Контакты"
+    }
+  ]
+.main-navigation
+  ul.main-navigation__list
+    each item in navigation
+      li.main-navigation__item
+        a.main-navigation__link(href=item.link, class=item.isActive && "main-navigation__link--active")= item.name

@@ -1,0 +1,32 @@
+.social__list {
+  list-style: none;
+  padding: 5px 29px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (min-width: $desktop) {
+    justify-content: flex-start;
+    border-right: 1px solid rgba($disabled-text-color, 0.6);
+    border-left: 1px solid rgba($disabled-text-color, 0.6);
+  }
+}
+
+.social__item {
+  margin: 0 11px;
+}
+
+.social__link {
+  display: block;
+  color: $disabled-text-color;
+  transition: 0.3s color;
+
+  &:hover {
+    color: $alternative-text-color;
+  }
+}
+
+.social__icon {
+  display: block;
+}

@@ -1,0 +1,12 @@
+.cart-add {
+  @include button();
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.cart-add__icon {
+  display: block;
+}

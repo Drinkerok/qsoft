@@ -1,0 +1,28 @@
+.logo {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (min-width: $desktop) {
+    display: block;
+  }
+
+  a {
+    display: block;
+    color: $disabled-text-color;
+    transition: 0.3s color;
+
+    &:hover {
+      color: $alternative-text-color;
+    }
+  }
+
+  img {
+    display: block;
+  }
+
+  svg {
+    display: block;
+  }
+}
